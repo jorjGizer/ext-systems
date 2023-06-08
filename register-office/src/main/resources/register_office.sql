@@ -37,12 +37,12 @@ CREATE TABLE ro_birth_certificate(
 );
 CREATE TABLE ro_marriage_certificate(
     marriage_certificate_id serial,
-    marriage_certificate varchar(20) not null,
+    number_certificate varchar(20) not null,
     date_issue date not null,
     husband_id integer not null ,
     wife_id integer not null ,
     active boolean DEFAULT false,
-    end_date date not null,
+    end_date date,
     PRIMARY KEY(marriage_certificate_id),
     FOREIGN KEY (husband_id) REFERENCES ro_person(person_id) ON DELETE RESTRICT,
     FOREIGN KEY (wife_id) REFERENCES ro_person(person_id) ON DELETE RESTRICT
