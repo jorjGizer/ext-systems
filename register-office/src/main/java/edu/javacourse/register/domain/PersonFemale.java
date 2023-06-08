@@ -1,10 +1,6 @@
 package edu.javacourse.register.domain;
 
-import javax.persistence.CascadeType;
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Entity

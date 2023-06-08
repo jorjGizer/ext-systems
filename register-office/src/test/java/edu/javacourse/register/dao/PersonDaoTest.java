@@ -1,17 +1,17 @@
 package edu.javacourse.register.dao;
 
-import edu.javacourse.register.domain.Person;
-import edu.javacourse.register.domain.PersonFemale;
-import edu.javacourse.register.domain.PersonMale;
-import org.junit.Test;
-
-import java.util.List;
-
-import static org.junit.Assert.*;
-
-public class PersonDaoTest {
-    @Test
-    public void findPerson(){
+//import edu.javacourse.register.domain.Person;
+//import edu.javacourse.register.domain.PersonFemale;
+//import edu.javacourse.register.domain.PersonMale;
+//import org.junit.Test;
+//
+//import java.util.List;
+//
+//import static org.junit.Assert.*;
+//
+//public class PersonDaoTest {
+//    @Test
+//    public void findPerson(){
 //        PersonDao dao = new PersonDao();
 //        List<Person> persons = dao.findPersons();
 //        persons.forEach(p -> {
@@ -28,6 +28,6 @@ public class PersonDaoTest {
 //                System.out.println("Marriage Cert: "+((PersonFemale) p).getMarriageCertificates().size());
 //            }
 //        });
-    }
-
-}
+//    }
+//
+//}
