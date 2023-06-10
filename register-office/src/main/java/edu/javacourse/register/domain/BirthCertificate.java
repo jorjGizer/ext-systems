@@ -5,8 +5,7 @@ import java.time.LocalDate;
 
 @Table(name = "ro_birth_certificate")
 @Entity
-public class BirthCertificate
-{
+public class BirthCertificate{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "birth_certificate_id")
