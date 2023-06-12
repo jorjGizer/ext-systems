@@ -18,7 +18,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-//@SpringBootTest
 @ContextConfiguration(locations = {"classpath:springContext.xml"})
 public class StudentServiceTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(StudentServiceTest.class);

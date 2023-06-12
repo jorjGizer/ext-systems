@@ -13,7 +13,7 @@ public class University {
     private Long universityId;
     @Column(name = "university_name")
     private String universityName;
-    @OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY,
+    @OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER,
             mappedBy = "university")
     private List<Faculty> faculties;
 
