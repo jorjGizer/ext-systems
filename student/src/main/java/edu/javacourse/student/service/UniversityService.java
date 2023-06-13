@@ -20,7 +20,7 @@ public class UniversityService {
     private FacultyRepository facultyRepository;
     @Transactional(readOnly = true)
     public List<University> findUniversities(){
-        return universityRepository.findAll();
+        return universityRepository.findFullList();
     }
     @Transactional(readOnly = true)
     public List<University> findAllWithUniversities(){
@@ -35,7 +35,7 @@ public class UniversityService {
 
     @Transactional(readOnly = true)
     public List<Faculty> findFaculties(){
-        return facultyRepository.findAll();
+        return facultyRepository.findFullList();
     }
     @Transactional(readOnly = true)
     public Faculty getFaculty(Long facultyId){
